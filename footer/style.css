@@ -1,3 +1,17 @@
-body {
-    background-color: burlywood;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
 }
