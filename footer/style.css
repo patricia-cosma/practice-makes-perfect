@@ -10,3 +10,22 @@ body {
     line-height: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, sans-serif;
 }
+
+.footer {
+    background-color: #191645;
+    padding: 70px 0; /*top and bottom 70, right and left 0*/
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ ul {
+    list-style-type: none;
+ }
