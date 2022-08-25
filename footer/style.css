@@ -2,16 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+/* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height.
+If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width */
 
-ul {
-    list-style: none;
 }
-
-ul li:not(:last-child) {
-    margin-bottom: 10px;
-}
-
-ul li a {
-    text-decoration: none;
+body {
+    line-height: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
 }
