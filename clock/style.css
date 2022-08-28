@@ -45,7 +45,16 @@ body {
   top: 50%;
   /*starting creating the rotating effect from the center of the clock*/
   transform-origin: 100%;
-  transform: rotate(90deg); /*now we have the hands at 12*/
+  transform: rotate(90deg); /*now we have the hands at 12 */
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); /*how the transition will move (work in browser's style for different ones*/
+}
+
+#thin {
+    height: 3px;
+}
+
+#short {
+    width: 35%;
+    left: 15%; /*as the position is absolute, we can adjust it using left*/
 }
