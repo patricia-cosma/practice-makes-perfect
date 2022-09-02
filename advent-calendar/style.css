@@ -18,9 +18,32 @@
     height: 900px;
     border: 4px solid black;
     margin: 20px auto;
-    background-image: url(./img/bckground.jpg);
-    background-size: cover;
+    background-color: darkgoldenrod;
+    /* background-image: url(./img/bckground.jpg); - better picture to find*/
+    /* background-size: cover; */
     display: grid; /*turning the container into a grid to divide it better in order to create the doors*/
     grid-template-columns: repeat(4, 25%); /*4 columns each having 25%*/
     grid-template-rows: repeat(6, 1fr); /*fraction to have the same space available for each row*/
+    /*now we rebuild the structure created, naming each part of the grid individually, so we can access them one by one*/
+    grid-template-areas: 
+        "door7 door19 door13 door2"
+        "door16 door1 door8 door22"
+        "door3 door10 door21 door14"
+        "door9 door15 door18 door6"
+        "door23 door4 door11 door20"
+        "door12 door24 door5 door17";
+}
+
+.image {
+    background-image: url(./img/door1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
 }
