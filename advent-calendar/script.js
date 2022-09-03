@@ -12,6 +12,13 @@ const createCalendar = () => {
         calendarDoor.classList.add('image');
         calendarDoor.style.gridArea = 'door' + (i + 1); // to select the specific door in the grid area created in CSS
         container.appendChild(calendarDoor);
+
+        calendarDoorText.classList.add('text');
+        calendarDoorText.innerHTML = i + 1;
+        calendarDoor.appendChild(calendarDoorText); // now we have the numbers in place as defined in the grid area
+
+        imageNumber = i + 1;
+        let imagePath = `./img/door${imageNumber}.jpg`;
     }
 }
 
