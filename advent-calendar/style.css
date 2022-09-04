@@ -18,9 +18,8 @@
     height: 900px;
     border: 4px solid black;
     margin: 20px auto;
-    background-color: darkgoldenrod;
-    /* background-image: url(./img/bckground.jpg); - better picture to find*/
-    /* background-size: cover; */
+    background-image: url(./img/bckground.jpg);
+    background-size: cover;
     display: grid; /*turning the container into a grid to divide it better in order to create the doors*/
     grid-template-columns: repeat(4, 25%); /*4 columns each having 25%*/
     grid-template-rows: repeat(6, 1fr); /*fraction to have the same space available for each row*/

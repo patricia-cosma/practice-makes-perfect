@@ -4,8 +4,8 @@ const container = document.querySelector ('.container');
 // const days - to be able to loop through the days in the calendar
 const days = 24;
 
-const openDoor = (event) => {
-
+const openDoor = (path, event) => {
+    event.target.parentNode.style.backgroundImage = `url(${path})`;
 }
 
 const createCalendar = () => {
@@ -24,7 +24,7 @@ const createCalendar = () => {
         imageNumber = i + 1;
         let imagePath = `./img/door${imageNumber}.jpg`;
 
-        calendarDoorText.addEventListener('click', openDoor);
+        calendarDoorText.addEventListener('click', openDoor.bind(null, imagePath));
     }
 }
 
