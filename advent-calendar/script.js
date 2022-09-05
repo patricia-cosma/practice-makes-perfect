@@ -6,6 +6,8 @@ const days = 24;
 
 const openDoor = (path, event) => {
     event.target.parentNode.style.backgroundImage = `url(${path})`;
+    event.target.style.opacity = "0";
+    event.taregt.style.backgroundColor = '#388a73';
 }
 
 const createCalendar = () => {
@@ -22,7 +24,7 @@ const createCalendar = () => {
         calendarDoor.appendChild(calendarDoorText); // now we have the numbers in place as defined in the grid area
 
         imageNumber = i + 1;
-        let imagePath = `./img/door${imageNumber}.jpg`;
+        let imagePath = `./img/door-${imageNumber}.jpg`;
 
         calendarDoorText.addEventListener('click', openDoor.bind(null, imagePath));
     }
