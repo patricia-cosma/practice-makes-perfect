@@ -34,9 +34,9 @@
 }
 
 .image {
-    background-image: url(./img/door1.jpg);
+    background-image: none;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .text {
