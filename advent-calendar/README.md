@@ -14,5 +14,7 @@ After that, clicking any door is possible.
 ![image](https://user-images.githubusercontent.com/107708977/188491717-7d55212c-228c-4950-b184-f6a49f5c11e2.png)
 
 
-(this is only a template to see how the code behaves; more pictures and updated advent calendar idea are coming soon...)
+Next version update:
+![image](https://user-images.githubusercontent.com/107708977/192110656-5cdad0ea-9501-429b-96e6-903fab1fa1fe.png)
+
 
