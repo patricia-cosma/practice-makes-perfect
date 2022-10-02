@@ -5,7 +5,7 @@
 .btn-start {
     background-color: rgb(193, 65, 11);
     color: whitesmoke;
-    border: 2px solid lightcyan;
+    border: 2px solid black;
     border-radius: 15px;
     margin: 15px auto;
     display: block; /*and now the margin takes effect on the button*/
