@@ -1,0 +1,44 @@
+/* * {
+    margin: auto;
+} */
+
+body {
+    background-color: #FA7424;
+    padding: 3rem 3rem 0 3rem;
+}
+
+.container {
+    background-color: #FFFDFC;
+    padding: 2rem;
+}
+
+h1, h2, p, a {
+    color: #2D176A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0; /*alligns with H1*/
+}
+
+ul li {
+    margin-right: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+  background-color: #FFFDFC;
+  border-color: #2D176A;
+  border-radius: 100rem;
+  padding: 0.3rem 1.5rem;
+}
