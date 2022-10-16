@@ -1,19 +1,22 @@
-/* * {
-    margin: auto;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300;400&display=swap');
 
+* {
+    color: #2D176A;
+}
+
+html {
+    font-family: 'Anek Bangla', sans-serif;
+
+}
 body {
     background-color: #FA7424;
     padding: 3rem 3rem 0 3rem;
+    margin-bottom: 0px;
 }
 
 .container {
     background-color: #FFFDFC;
     padding: 2rem;
-}
-
-h1, h2, p, a {
-    color: #2D176A;
 }
 
 nav {
@@ -29,7 +32,7 @@ nav > ul {
 }
 
 ul li {
-    margin-right: 3rem;
+    margin: 10px 50px;
 }
 
 a {
@@ -39,6 +42,17 @@ a {
 button {
   background-color: #FFFDFC;
   border-color: #2D176A;
-  border-radius: 100rem;
-  padding: 0.3rem 1.5rem;
+  border-radius: 50px;
+  padding: 0px 48px;
+  font-family: 'Anek Bangla', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+#hero {
+    transform: scaleX(-1); /*flipped the image based on the X axis*/
+    width: 10px;
 }
