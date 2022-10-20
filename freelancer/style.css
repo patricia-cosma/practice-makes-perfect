@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Anek Bangla', sans-serif;
+    font-weight: 700;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 
 .container {
     background-color: #FFFDFC;
-    padding: 2rem;
+    padding: 2rem 5rem;
 }
 
 nav {
@@ -45,25 +46,30 @@ button {
   border-radius: 50px;
   padding: 0px 48px;
   font-family: 'Anek Bangla', sans-serif;
+  font-weight: 700;
 }
 
 h1 {
     font-weight: 900;
     font-size: 5rem;
-    inline-size: 50%;
-    overflow-wrap: break-all; /*wrapping the text*/
+    max-width: 40%;
+    display: inline-block;
+    overflow-wrap: break-all;
+    padding-left: 3.5rem;
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
-    grid-gap: 1rem;
+    max-width: fit-content;
+    background-image: url("./hero.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 700px;
+    
 }
 
-#hero {
-    transform: scaleX(-1); /*flipped the image based on the X axis*/
-    width: 500px;
+.bottom {
+    display: flex;
+    justify-content: space-around;
 }
 
 #scroll {
