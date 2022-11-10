@@ -1,0 +1,53 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.searchBar {
+    /* NOTE: this makes the flex container behave like an inline element */
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+.icon {
+    padding: 0.8rem;
+}
+
+.searchBox {
+    /* NOTE: this removes the border around the element */
+    border: 0;
+    flex: 1; /*short for 1 1 0*/
+}
+
+.searchButton {
+    color: white;
+    background-color: darkcyan;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+.navigation {
+    padding: 0;
+    background-color: darkcyan;
+    display: flex;
+    /* NOTE: this is a shorthand property specifying the direction of the flex container and its behaviour for wrapping */
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 20px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+}
