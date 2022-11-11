@@ -1,6 +1,7 @@
 /* * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    box-sizing: border-box;
 } */
 
 .searchBar {
@@ -51,3 +52,23 @@
     text-decoration: none;
     color: antiquewhite;
 }
+
+.navigation a:hover {
+    background-color: lightsalmon;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.gallery img {
+    border: 0;
+}
+
+.item {
+    margin: 5px;
+}
+
