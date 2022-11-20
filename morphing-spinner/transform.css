@@ -1,0 +1,20 @@
+body {
+    background-color: whitesmoke;
+}
+
+.box {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background-color: green;
+    border: solid 4px goldenrod;
+    border-radius: 35px;
+}
+
+.box:hover {
+    transform: rotateZ(50deg);
+    background-color: palevioletred;
+    opacity: 70%;
+    transition: 1.5s;
+}
