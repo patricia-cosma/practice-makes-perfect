@@ -1,5 +1,7 @@
-body {
-    background-color: whitesmoke;
+* {
+    padding: 0;
+    margin: 0;
+    color: pink;
 }
 
 .box {
@@ -17,4 +19,18 @@ body {
     background-color: palevioletred;
     opacity: 70%;
     transition: 1.5s;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 60px;
 }
