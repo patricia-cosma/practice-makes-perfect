@@ -1,0 +1,19 @@
+body {
+    padding: 30px;
+}
+
+.box {
+    background-color: lightcoral;
+    width: 70px;
+    height: 150px;
+    animation: resize 3s infinite ease-in;
+}
+
+@keyframes resize {
+    from {
+        width: 70px;
+    }
+    to {
+        width: 200px;
+    }
+}
