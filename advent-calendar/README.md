@@ -1,3 +1,5 @@
+Choosing the idea for this project was so easy. I wanted to learn and apply CSS and JavaScript, but also make something a bit more personal than the projects before. Designing the Advent Calendar and making it responsive was quite the trick. I found it harder to put JavaScript in place, but after research and "what is going on here?", I made it work!
+
 It's never too early for preparing your Advent Calendar, isn't it?
 ...
 right?
@@ -5,7 +7,7 @@ right?
 right?
 ...
 
-Anyway, this is what I got so far:
+This is what I got so far:
 ![image](https://user-images.githubusercontent.com/107708977/188491521-2bdc0f1a-47e1-402b-9a64-2a38dd823796.png)
 
 
