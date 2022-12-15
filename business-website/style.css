@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 1.5rem 3%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #CF5F4B;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #CF5F4B;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #f3e3d3;
+}
+
+header > img {
+    /*this will center the logo within the header element*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*this will ensure logo's responsiveness*/
+    width: 7%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#promo {
+    background-color: #CF5F4B;
+}
+section > img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    padding: 35px;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#products img {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 5%;
+    height: auto;
+}
