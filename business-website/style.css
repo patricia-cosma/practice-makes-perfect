@@ -44,6 +44,7 @@ nav ul {
 #promo {
     background-color: #CF5F4B;
 }
+
 section > img {
     width: 50%;
     height: auto;
@@ -52,19 +53,22 @@ section > img {
     padding: 35px;
 }
 
-#products {
+#blog {
     display: flex;
     justify-content: space-around;
     align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-#products img {
-    width: 200px;
+article {
+    flex: 1;
 }
 
 footer {
     display: flex;
     flex-direction: row;
+    margin: 35px;
 }
 
 footer div {
@@ -74,4 +78,8 @@ footer div {
 footer img {
     width: 5%;
     height: auto;
+}
+
+footer p {
+    font-size: 0.7rem;
 }
