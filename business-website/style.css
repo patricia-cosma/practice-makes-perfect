@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 a {
@@ -21,6 +21,7 @@ a {
 
 a:hover {
     color: #f3e3d3;
+    font-size: 1.2rem;
 }
 
 header > img {
@@ -65,10 +66,40 @@ article {
     flex: 1;
 }
 
+.push {
+    background: #CF5F4B;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+
+.front {
+    display: block;
+    padding: 12px 32px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background: #f3e3d3;
+    color: #CF5F4B;
+    transform: translateY(-4px);
+    will-change: transform;
+    transition: transform 250ms;
+}
+
+.push:hover .front {
+    transform: translateY(-6px);
+}
+
+.push:active .front {
+    transform: translateY(-1px);
+}
+
 footer {
     display: flex;
     flex-direction: row;
-    margin: 35px;
+    flex-wrap: nowrap;
+    margin: 45px;
 }
 
 footer div {
