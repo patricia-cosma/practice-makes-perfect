@@ -24,6 +24,10 @@ a:hover {
     font-size: 1.2rem;
 }
 
+h1:hover {
+    text-decoration: underline;
+}
+
 header > img {
     /*this will center the logo within the header element*/
     display: block;
@@ -99,7 +103,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 45px;
+    margin: 45px auto;
 }
 
 footer div {
