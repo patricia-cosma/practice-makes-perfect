@@ -7,6 +7,7 @@ body {
 h1 {
     font-size: 2.5rem;
     color: #CF5F4B;
+    text-align: center;
 }
 
 p {
@@ -66,6 +67,14 @@ section > img {
     flex-wrap: wrap;
 }
 
+#blog img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 350px;
+}
+
 article {
     flex: 1;
 }
@@ -100,21 +109,29 @@ article {
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    width: 980px;
+    border: 1px #CF5F4B solid;
     margin: 45px auto;
 }
 
-footer div {
-    flex: 1;
+footer img {
+    width: 30px;
+    height: auto;
+    padding: 15px;
 }
 
-footer img {
-    width: 5%;
-    height: auto;
+footer .left {
+    width: 49%;
+    float: left;
+    display: inline;
+}
+
+footer .right {
+    width: 49%;
+    float: right;
+    display: inline;
 }
 
 footer p {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
 }
