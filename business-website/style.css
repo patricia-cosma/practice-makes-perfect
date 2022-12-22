@@ -77,6 +77,8 @@ section > img {
 
 article {
     flex: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .push {
@@ -109,7 +111,6 @@ article {
 }
 
 footer {
-    width: 980px;
     border: 1px #CF5F4B solid;
     margin: 45px auto;
 }
@@ -134,4 +135,5 @@ footer .right {
 
 footer p {
     font-size: 0.85rem;
+    text-align: right;
 }
