@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 90%;
+}
+
+/* Titles */
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    flex: 1;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 300;
+    /* line-height: 1.7em; */
+}
+
+h6 {
+    color: #3B3939;
+}
+
+/* Product card layout */
+.product-filter {
+    display: flex;
+    padding: 20px 0;
+}
+
+.sort {
+    display: flex;
+    align-self: center;
+}
+
+.collection-sort {
+    display: flex;
+    flex-direction: column;
+}
