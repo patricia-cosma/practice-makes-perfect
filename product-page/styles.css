@@ -71,10 +71,12 @@ label {
 
 .product-image img {
     width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .product-info {
-    margin: auto;
+    margin-top: auto;
     padding-top: 20px;
     text-align: center;
 }
