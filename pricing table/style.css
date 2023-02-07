@@ -8,7 +8,7 @@
 	width: 100%;
 	min-height: 100vh;
 	background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	background-image: linear-gradient(174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4%	);
 }
 .container h2{
 	color: #302e2e;
@@ -26,11 +26,13 @@
 	grid-gap: 25px;
 }
 .price-col{
-	background: #006400;
+	background: #a75858;
 	padding: 10% 15%;
 	border-radius: 10px;
 	color: #fff;
 	text-align: center;
+	box-shadow: inset 32px 32px 64px #773e3e,
+	inset -32px -32px 64px #d77272;;
 }
 .price-col p{
 	font-size: 22px;
